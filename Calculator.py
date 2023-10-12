@@ -59,8 +59,8 @@ print("2.SCIENTIFIC CALCULATOR")
 
 calculator_choice = int(input("Enter the choice of the calculator = "))
 if calculator_choice == 1:
-    cont = 'y'
-    while cont.lower() == 'y':
+    cont_arith = 'y'
+    while cont_arith.lower() == 'y':
 
         # Providing multiple mathematical operations
         print("\n~~~NORMAL CALCULATOR~~~")
@@ -97,13 +97,13 @@ if calculator_choice == 1:
         else:
             print("Enter a correct number!")
 
-        cont = input("\nContinue ? Y/N = ")
-        if cont == 'n':
+        cont_arith = input("\nContinue ? Y/N = ")
+        if cont_arith.lower() == 'n':
             break
 
 else:
-    cont1 = 'y'
-    while cont1.lower() == 'y':
+    cont_sci = 'y'
+    while cont_sci.lower() == 'y':
 
         # Providing multiple options for scientific calculator
         print("\n~~~SCIENTIFIC CALCULATOR~~~")
@@ -127,6 +127,6 @@ else:
         else:
             print("Enter a correct number!")
 
-        cont1 = input("\nProceed Y/N = ")
-        if cont1 == 'n':
+        cont_sci = input("\nProceed Y/N = ")
+        if cont_sci.lower() == 'n':
             break
