@@ -9,7 +9,7 @@ from scipy.io.wavfile import write
 # Creating the Voice recorder application
 root = Tk()
 root.geometry("700x630")
-root.title("Voice Recorder Ap")
+root.title("Voice Recorder Application")
 root.resizable(False, False)
 
 
