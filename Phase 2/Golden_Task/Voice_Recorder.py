@@ -28,7 +28,7 @@ def Record():
 
         if temp == 0:
             messagebox.showinfo(title="Voice Recorder", message="Time's Up! Thanks for recording. Your recording is "
-                                                                "saved as My_Recording.wav")
+                                                                "saved as My_Recording.mp3")
     sound.wait()
     write("My_Recording.mp3", freq, record)
 
